@@ -1,0 +1,10 @@
+{
+    "test1":{
+        "input":[1],
+        "output" : [1]
+    },
+    "test2":{
+        "input":[4],
+        "output" : [4]
+    }
+}

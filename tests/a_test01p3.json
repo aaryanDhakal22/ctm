@@ -1,0 +1,10 @@
+{
+    "test1":{
+        "input" : [1,2],
+        "output" : ["Your first number is 1", "Your second number is 2"]
+    },
+    "test2":{
+        "input" : [1.4,2.5],
+        "output" : ["Your first number is 1.4", "Your second number is 2.5"]
+    }
+}
