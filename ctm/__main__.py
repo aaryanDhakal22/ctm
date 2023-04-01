@@ -1,5 +1,4 @@
 import subprocess
-from time import sleep
 from .test_creator import test_case_creator
 from .output_test import output_tester
 
