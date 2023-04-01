@@ -19,10 +19,8 @@ def main():
         I_file = open(file, "r")
         O_file = open("temp/user_outputs/user_output" + str(counter), "w")
 
-        print("input file contets")
-        print(I_file.readlines())
-
         subprocess.run(["build/result"], stdin=I_file, stdout=O_file)
+        # subprocess.run(["build/result"])
 
         O_file.close()
 

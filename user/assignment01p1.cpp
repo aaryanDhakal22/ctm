@@ -4,6 +4,8 @@ using namespace std;
 
 int main()
 {
-    cout << 12 << endl;
+    int num;
+    cin >> num;
+    cout << num << endl;
     return 0;
 }
