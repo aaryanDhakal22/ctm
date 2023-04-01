@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    int num;
+    float num;
     cin >> num;
     cout << num << endl;
     return 0;

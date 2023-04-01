@@ -13,10 +13,12 @@ def test_case_creator(test_file):
             new_file.write(str(num) + "\n")
         test_files.append(file_name)
         new_file.close()
+    output_files = []
     for counter, test in enumerate(tests):
         file_name = "temp/test_outputs/output" + str(counter + 1)
         new_file = open(file_name, "w")
         for num in tests[test]["output"]:
             new_file.write(str(num) + "\n")
+        output_files.append(file_name)
         new_file.close()
-    return test_files
+    return test_files, output_files

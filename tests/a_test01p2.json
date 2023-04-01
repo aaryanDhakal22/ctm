@@ -1,10 +1,10 @@
 {
     "test1":{
         "input" : [1,2],
-        "output" : [3]
+        "output" : ["Enter the first number","Enter the second number",3]
     },
     "test2":{
         "input" : [1.4,2.5],
-        "output" : [3.9]
+        "output" : ["Enter the first number","Enter the second number",3.9]
     }
 }
